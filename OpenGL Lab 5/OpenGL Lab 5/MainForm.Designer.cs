@@ -36,7 +36,8 @@ namespace OpenGL_Lab_5
             // renderControl1
             // 
             renderControl1.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
-            renderControl1.BackColor = System.Drawing.Color.SlateGray;
+            renderControl1.BackColor = System.Drawing.Color.FromArgb(30, 30, 30);
+            renderControl1.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             renderControl1.ForeColor = System.Drawing.Color.White;
             renderControl1.Location = new System.Drawing.Point(12, 12);
             renderControl1.Name = "renderControl1";
@@ -48,11 +49,12 @@ namespace OpenGL_Lab_5
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.FromArgb(20, 20, 20);
             ClientSize = new System.Drawing.Size(945, 602);
             Controls.Add(renderControl1);
             Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             Name = "MainForm";
-            Text = "Main Form";
+            Text = "Lab 5";
             ResumeLayout(false);
         }
 

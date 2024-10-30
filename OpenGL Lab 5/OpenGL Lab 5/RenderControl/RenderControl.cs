@@ -14,6 +14,11 @@ namespace OpenGL_Lab_5
         {
             InitializeComponent();
         }
+
+        private void OnRender(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
