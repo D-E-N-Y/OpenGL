@@ -1,0 +1,19 @@
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\bin\Debug\net8.0-windows7.0\OpenGL Lab 3.exe
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\bin\Debug\net8.0-windows7.0\OpenGL Lab 3.deps.json
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\bin\Debug\net8.0-windows7.0\OpenGL Lab 3.runtimeconfig.json
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\bin\Debug\net8.0-windows7.0\OpenGL Lab 3.dll
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\bin\Debug\net8.0-windows7.0\OpenGL Lab 3.pdb
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL_Lab_3.MainForm.resources
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL_Lab_3.OpenGL.resources
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL_Lab_3.RenderControl.resources
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.csproj.GenerateResource.cache
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.AssemblyInfoInputs.cache
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.AssemblyInfo.cs
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.csproj.CoreCompileInputs.cache
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.dll
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\refint\OpenGL Lab 3.dll
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.pdb
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.genruntimeconfig.cache
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\ref\OpenGL Lab 3.dll
+C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL_Lab_3.Properties.Resources.resources

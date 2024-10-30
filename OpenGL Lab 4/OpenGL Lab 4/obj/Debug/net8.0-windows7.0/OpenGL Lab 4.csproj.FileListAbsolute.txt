@@ -1,0 +1,18 @@
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\bin\Debug\net8.0-windows7.0\OpenGL Lab 4.exe
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\bin\Debug\net8.0-windows7.0\OpenGL Lab 4.deps.json
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\bin\Debug\net8.0-windows7.0\OpenGL Lab 4.runtimeconfig.json
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\bin\Debug\net8.0-windows7.0\OpenGL Lab 4.dll
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\bin\Debug\net8.0-windows7.0\OpenGL Lab 4.pdb
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\OpenGL_Lab_4.MainForm.resources
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\OpenGL_Lab_4.OpenGL.resources
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\OpenGL_Lab_4.RenderControl.resources
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\OpenGL Lab 4.csproj.GenerateResource.cache
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\OpenGL Lab 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\OpenGL Lab 4.AssemblyInfoInputs.cache
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\OpenGL Lab 4.AssemblyInfo.cs
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\OpenGL Lab 4.csproj.CoreCompileInputs.cache
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\OpenGL Lab 4.dll
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\refint\OpenGL Lab 4.dll
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\OpenGL Lab 4.pdb
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\OpenGL Lab 4.genruntimeconfig.cache
+C:\Users\mysli\source\repos\OpenGL Lab 4\OpenGL Lab 4\obj\Debug\net8.0-windows7.0\ref\OpenGL Lab 4.dll
