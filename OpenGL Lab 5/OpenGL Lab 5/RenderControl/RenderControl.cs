@@ -41,12 +41,53 @@ namespace OpenGL_Lab_5
             glRotated(angleY, 0, 1, 0);
 
             DrawAxis();
+            DrawSphere();
+        }
+
+        private void DrawSphere()
+        {
+            float radius = 0.5f;
+            float segment = 30.0f;
+            
+            float stepTeta = float.Pi / segment;
+            float stepPhi = 2 * float.Pi / segment;
+
+            glBegin(GL_LINES);
+            glColor3d(64f / 255f, 224f / 255f, 208f / 255f);
+
+            for (float teta = 0.0f; teta < float.Pi; teta += stepTeta)
+            {
+                for(float phi = 0.0f; phi < 2 * float.Pi; phi += stepPhi)
+                {
+                    float x1 = radius * MathF.Sin(teta) * MathF.Cos(phi);
+                    float y1 = radius * MathF.Sin(teta) * MathF.Sin(phi);
+                    float z1 = radius * MathF.Cos(teta);
+
+                    float x2 = radius * MathF.Sin(teta) * MathF.Cos(phi + stepPhi);
+                    float y2 = radius * MathF.Sin(teta) * MathF.Sin(phi + stepPhi);
+                    float z2 = radius * MathF.Cos(teta);
+
+                    float x3 = radius * MathF.Sin(teta + stepTeta) * MathF.Cos(phi);
+                    float y3 = radius * MathF.Sin(teta + stepTeta) * MathF.Sin(phi);
+                    float z3 = radius * MathF.Cos(teta + stepTeta);
+
+                    glVertex3d(x1, y1, z1);
+                    glVertex3d(x2, y2, z2);
+
+                    glVertex3d(x1, y1, z1);
+                    glVertex3d(x3, y3, z3);
+                }
+            }
+
+            glEnd();
         }
 
         private void DrawAxis()
         {
             glBegin(GL_LINES);
-            
+            glColor3d(255f / 255f, 255f / 255f, 255f / 255f);
+
+
             // X axis
             glVertex3d(0.0f, 0.0f, 0.0f);
             glVertex3d(1.0f, 0.0f, 0.0f);
