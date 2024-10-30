@@ -1,0 +1,19 @@
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\bin\Debug\net8.0-windows7.0\OpenGL Lab 5.exe
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\bin\Debug\net8.0-windows7.0\OpenGL Lab 5.deps.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\bin\Debug\net8.0-windows7.0\OpenGL Lab 5.runtimeconfig.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\bin\Debug\net8.0-windows7.0\OpenGL Lab 5.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\bin\Debug\net8.0-windows7.0\OpenGL Lab 5.pdb
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL_Lab_5.MainForm.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL_Lab_5.OpenGL.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL_Lab_5.RenderControl.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL Lab 5.csproj.GenerateResource.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL Lab 5.GeneratedMSBuildEditorConfig.editorconfig
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL Lab 5.AssemblyInfoInputs.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL Lab 5.AssemblyInfo.cs
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL Lab 5.csproj.CoreCompileInputs.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL Lab 5.sourcelink.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL Lab 5.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\refint\OpenGL Lab 5.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL Lab 5.pdb
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\OpenGL Lab 5.genruntimeconfig.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 5\OpenGL Lab 5\obj\Debug\net8.0-windows7.0\ref\OpenGL Lab 5.dll
