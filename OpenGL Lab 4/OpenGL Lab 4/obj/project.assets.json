@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mysli\\source\\repos\\OpenGL Lab 4\\OpenGL Lab 4\\OpenGL Lab 4.csproj",
+      "projectUniqueName": "E:\\ХАІ\\3 курс\\OpenGL\\OpenGL Lab 4\\OpenGL Lab 4\\OpenGL Lab 4.csproj",
       "projectName": "OpenGL Lab 4",
-      "projectPath": "C:\\Users\\mysli\\source\\repos\\OpenGL Lab 4\\OpenGL Lab 4\\OpenGL Lab 4.csproj",
+      "projectPath": "E:\\ХАІ\\3 курс\\OpenGL\\OpenGL Lab 4\\OpenGL Lab 4\\OpenGL Lab 4.csproj",
       "packagesPath": "C:\\Users\\mysli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mysli\\source\\repos\\OpenGL Lab 4\\OpenGL Lab 4\\obj\\",
+      "outputPath": "E:\\ХАІ\\3 курс\\OpenGL\\OpenGL Lab 4\\OpenGL Lab 4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programs\\Microsoft Visual Studio\\Shared\\NuGetPackages"

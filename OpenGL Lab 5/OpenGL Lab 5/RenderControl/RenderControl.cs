@@ -44,16 +44,18 @@ namespace OpenGL_Lab_5
 
             DrawAxis();
             //DrawSphere();
-            DrawConus();
+            //DrawConus();
+
+            var id = gluNewQuadric();
+            gluQuadricDrawStyle(id, GLU_LINE);
+            gluPartialDisk(id, 1 / 4.5f, 1 / 1.5f, 5, 1, 180f, 90f);
+            gluDeleteQuadric(id);
         }
 
         private void DrawConus()
         {
             float h = 1f;
             float c = 0f;
-
-            float a = 0.5f;
-            float b = 1f;
 
             float slice = h - c;
 
@@ -71,16 +73,16 @@ namespace OpenGL_Lab_5
             {
                 for (float teta = 0; teta < 2 * float.Pi; teta += tetaStep)
                 {
-                    float x1 = (h - upsilon) / h * r * MathF.Cos(teta) * a;
-                    float y1 = (h - upsilon) / h * r * MathF.Sin(teta) * b;
+                    float x1 = (h - upsilon) / h * r * MathF.Cos(teta);
+                    float y1 = (h - upsilon) / h * r * MathF.Sin(teta);
                     float z1 = upsilon;
 
-                    float x2 = (h - (upsilon + upsilonStep)) / h * r * MathF.Cos(teta) * a;
-                    float y2 = (h - (upsilon + upsilonStep)) / h * r * MathF.Sin(teta) * b;
+                    float x2 = (h - (upsilon + upsilonStep)) / h * r * MathF.Cos(teta);
+                    float y2 = (h - (upsilon + upsilonStep)) / h * r * MathF.Sin(teta);
                     float z2 = upsilon + upsilonStep;
 
-                    float x3 = (h - upsilon) / h * r * MathF.Cos(teta + tetaStep) * a;
-                    float y3 = (h - upsilon) / h * r * MathF.Sin(teta + tetaStep) * b;
+                    float x3 = (h - upsilon) / h * r * MathF.Cos(teta + tetaStep);
+                    float y3 = (h - upsilon) / h * r * MathF.Sin(teta + tetaStep);
                     float z3 = upsilon;
 
                     // base bottom
@@ -116,7 +118,7 @@ namespace OpenGL_Lab_5
         private void DrawSphere()
         {
             float radius = 0.5f;
-            float segment = 30.0f;
+            float segment = 15.0f;
             
             float stepTeta = float.Pi / segment;
             float stepPhi = 2 * float.Pi / segment;

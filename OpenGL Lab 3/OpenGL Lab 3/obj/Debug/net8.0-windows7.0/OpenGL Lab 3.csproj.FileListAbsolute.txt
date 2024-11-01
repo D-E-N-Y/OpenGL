@@ -17,3 +17,23 @@ C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.
 C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.genruntimeconfig.cache
 C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\ref\OpenGL Lab 3.dll
 C:\Users\mysli\source\repos\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL_Lab_3.Properties.Resources.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\bin\Debug\net8.0-windows7.0\OpenGL Lab 3.exe
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\bin\Debug\net8.0-windows7.0\OpenGL Lab 3.deps.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\bin\Debug\net8.0-windows7.0\OpenGL Lab 3.runtimeconfig.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\bin\Debug\net8.0-windows7.0\OpenGL Lab 3.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\bin\Debug\net8.0-windows7.0\OpenGL Lab 3.pdb
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL_Lab_3.MainForm.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL_Lab_3.OpenGL.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL_Lab_3.Properties.Resources.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL_Lab_3.RenderControl.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.csproj.GenerateResource.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.GeneratedMSBuildEditorConfig.editorconfig
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.AssemblyInfoInputs.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.AssemblyInfo.cs
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.csproj.CoreCompileInputs.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.sourcelink.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\refint\OpenGL Lab 3.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.pdb
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\OpenGL Lab 3.genruntimeconfig.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 3\OpenGL Lab 3\obj\Debug\net8.0-windows7.0\ref\OpenGL Lab 3.dll
