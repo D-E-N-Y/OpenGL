@@ -5,7 +5,9 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Design;
 using System.Linq;
+using System.Security.Policy;
 using System.Windows.Forms;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OpenGL_Lab_5
 {
@@ -41,7 +43,74 @@ namespace OpenGL_Lab_5
             glRotated(angleY, 0, 1, 0);
 
             DrawAxis();
-            DrawSphere();
+            //DrawSphere();
+            DrawConus();
+        }
+
+        private void DrawConus()
+        {
+            float h = 1f;
+            float c = 0f;
+
+            float a = 0.5f;
+            float b = 1f;
+
+            float slice = h - c;
+
+            float r = 0.5f;
+
+            float segment = 15.0f;
+
+            float upsilonStep = slice / segment;
+            float tetaStep = 2 * float.Pi / segment;
+
+            glBegin(GL_LINES);
+            glColor3d(64f / 255f, 224f / 255f, 208f / 255f);
+
+            for (float upsilon = 0; upsilon < h; upsilon += upsilonStep)
+            {
+                for (float teta = 0; teta < 2 * float.Pi; teta += tetaStep)
+                {
+                    float x1 = (h - upsilon) / h * r * MathF.Cos(teta) * a;
+                    float y1 = (h - upsilon) / h * r * MathF.Sin(teta) * b;
+                    float z1 = upsilon;
+
+                    float x2 = (h - (upsilon + upsilonStep)) / h * r * MathF.Cos(teta) * a;
+                    float y2 = (h - (upsilon + upsilonStep)) / h * r * MathF.Sin(teta) * b;
+                    float z2 = upsilon + upsilonStep;
+
+                    float x3 = (h - upsilon) / h * r * MathF.Cos(teta + tetaStep) * a;
+                    float y3 = (h - upsilon) / h * r * MathF.Sin(teta + tetaStep) * b;
+                    float z3 = upsilon;
+
+                    // base bottom
+                    glVertex3d(x1, y1, 0);
+                    glVertex3d(x2, y2, 0);
+
+                    glVertex3d(x1, y1, 0);
+                    glVertex3d(x3, y3, 0);
+
+                    if (z1 < slice || z2 < slice || z3 < slice)
+                    {
+                        glVertex3d(x1, y1, z1);
+                        glVertex3d(x2, y2, z2);
+
+                        glVertex3d(x1, y1, z1);
+                        glVertex3d(x3, y3, z3);
+                    }
+                    else if (z1 > slice || z2 > slice || z3 > slice)
+                    {
+                        // base top
+                        glVertex3d(x1, y1, slice);
+                        glVertex3d(x2, y2, slice);
+
+                        glVertex3d(x1, y1, slice);
+                        glVertex3d(x3, y3, slice);
+                    }
+                }
+            }
+
+            glEnd();
         }
 
         private void DrawSphere()

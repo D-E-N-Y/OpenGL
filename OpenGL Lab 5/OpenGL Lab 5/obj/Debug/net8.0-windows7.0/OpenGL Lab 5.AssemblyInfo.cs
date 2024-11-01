@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenGL Lab 5")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7a76ea584d992b4c87dc7b88f0bf8ca20d5beae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c9e1b6c9453afd56fb51bd2b975572504fa1f2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenGL Lab 5")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenGL Lab 5")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
