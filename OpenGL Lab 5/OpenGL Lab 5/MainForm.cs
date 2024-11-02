@@ -10,5 +10,20 @@ namespace OpenGL_Lab_5
         {
             InitializeComponent();
         }
+
+        private void segments_numeric_ValueChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetSegments((int)segments_numeric.Value);
+        }
+
+        private void fill_radioButton_CheckedChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetDrawMode(true, GLU_FILL);
+        }
+
+        private void line_radioButton_CheckedChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetDrawMode(false, GLU_LINE);
+        }
     }
 }

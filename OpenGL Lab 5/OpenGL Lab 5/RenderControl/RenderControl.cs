@@ -35,6 +35,9 @@ namespace OpenGL_Lab_5
 
         private float segment = 15.0f;
 
+        private bool isFillMode = true;
+        private uint gluMode = GLU_FILL;
+
         private float sphereRadius = 3.5f;
 
         private float coneHeight = 5.0f;
@@ -51,6 +54,21 @@ namespace OpenGL_Lab_5
             InitializeComponent();
         }
 
+        public void SetSegments(int _segment)
+        {
+            segment = _segment;
+
+            Invalidate();
+        }
+
+        public void SetDrawMode(bool _fill, uint _gluMode)
+        {
+            isFillMode = _fill;
+            gluMode = _gluMode;
+
+            Invalidate();
+        }
+
         private void OnRender(object sender, EventArgs e)
         {
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -65,9 +83,12 @@ namespace OpenGL_Lab_5
             _heigth = size * 2;
             _width = size * 2;
 
+            // Draw system coorditane
             DrawGrid();
             DrawAxis();
             DrawTextAxis();
+
+            // Draw figures
             DrawSphere();
             DrawConus();
             DrawPartialDisk();
@@ -80,11 +101,12 @@ namespace OpenGL_Lab_5
             float z0 = -4.5f;
             
             var id = gluNewQuadric();
-            gluQuadricDrawStyle(id, GLU_LINE);
+            gluQuadricDrawStyle(id, gluMode);
 
             glPushMatrix();
             glTranslatef(x0, y0, z0);
 
+            glColor3d(127f / 255f, 255f / 255f, 0f / 255f);
             gluPartialDisk(id, size / innerRadius, size / outerRadius, (int)segment, 1, startAngle, sweepAngle);
 
             glPopMatrix();
@@ -102,8 +124,17 @@ namespace OpenGL_Lab_5
             float upsilonStep = slice / segment;
             float tetaStep = 2 * float.Pi / segment;
 
-            glBegin(GL_LINES);
-            glColor3d(64f / 255f, 224f / 255f, 208f / 255f);
+            if(isFillMode)
+            {
+                glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+                glBegin(GL_POLYGON);
+            }
+            else
+            {
+                glBegin(GL_LINES);
+            }
+
+            glColor3d(255f / 255f, 237f / 255f, 0f / 255f);
 
             for (float upsilon = 0; upsilon < coneHeight; upsilon += upsilonStep)
             {
@@ -160,7 +191,16 @@ namespace OpenGL_Lab_5
             float y0 = -3.5f;
             float z0 = 3.5f;
 
-            glBegin(GL_LINES);
+            if (isFillMode)
+            {
+                glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+                glBegin(GL_POLYGON);
+            }
+            else
+            {
+                glBegin(GL_LINES);
+            }
+
             glColor3d(64f / 255f, 224f / 255f, 208f / 255f);
 
             for (float teta = 0.0f; teta < float.Pi; teta += stepTeta)
