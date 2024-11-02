@@ -39,6 +39,8 @@ namespace OpenGL_Lab_5
         private void coneHeight_numeric_ValueChanged(object sender, System.EventArgs e)
         {
             renderControl1.SetConeHeight((float)coneHeight_numeric.Value);
+
+            coneSlice_numeric.Maximum = coneHeight_numeric.Value - coneSlice_numeric.Increment;
         }
 
         private void coneSlice_numeric_ValueChanged(object sender, System.EventArgs e)
