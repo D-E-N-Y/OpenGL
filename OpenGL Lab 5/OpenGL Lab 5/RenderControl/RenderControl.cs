@@ -69,6 +69,62 @@ namespace OpenGL_Lab_5
             Invalidate();
         }
 
+        public void SetSphereRadius(float _radius)
+        {
+            sphereRadius = _radius;
+
+            Invalidate();
+        }
+
+        public void SetConeRadius(float _radius)
+        {
+            coneRadius = _radius;
+
+            Invalidate();
+        }
+
+        public void SetConeHeight(float _height)
+        {
+            coneHeight = _height;
+
+            Invalidate();
+        }
+
+        public void SetConeSlice(float _slice)
+        {
+            coneSlice = _slice;
+
+            Invalidate();
+        }
+
+        public void SetPDInnerRadius(float _radius)
+        {
+            innerRadius = _radius;
+
+            Invalidate();
+        }
+
+        public void SetPDOuterRadius(float _radius)
+        {
+            outerRadius = _radius;
+
+            Invalidate();
+        }
+
+        public void SetPDStartAngle(float _angle)
+        {
+            startAngle = _angle;
+
+            Invalidate();
+        }
+
+        public void SetPDSweepAngle(float _angle)
+        {
+            sweepAngle = _angle;
+
+            Invalidate();
+        }
+
         private void OnRender(object sender, EventArgs e)
         {
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);

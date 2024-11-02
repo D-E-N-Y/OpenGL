@@ -25,5 +25,45 @@ namespace OpenGL_Lab_5
         {
             renderControl1.SetDrawMode(false, GLU_LINE);
         }
+
+        private void sphereRadius_numeric_ValueChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetSphereRadius((float)sphereRadius_numeric.Value);
+        }
+
+        private void coneRadius_numeric_ValueChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetConeRadius((float)coneRadius_numeric.Value);
+        }
+
+        private void coneHeight_numeric_ValueChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetConeHeight((float)coneHeight_numeric.Value);
+        }
+
+        private void coneSlice_numeric_ValueChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetConeSlice((float)coneSlice_numeric.Value);
+        }
+
+        private void partialDiskInnerRadius_numeric_ValueChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetPDInnerRadius((float)partialDiskInnerRadius_numeric.Value);
+        }
+
+        private void partialDiskOuterRadius_numeric_ValueChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetPDOuterRadius((float)partialDiskOuterRadius_numeric.Value);
+        }
+
+        private void partialDiskStartAngle_numeric_ValueChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetPDStartAngle((float)partialDiskStartAngle_numeric.Value);
+        }
+
+        private void partialDiskSweepAngle_numeric_ValueChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetPDSweepAngle((float)partialDiskSweepAngle_numeric.Value);
+        }
     }
 }

@@ -221,7 +221,8 @@ namespace OpenGL_Lab_5
             sphereRadius_numeric.Size = new System.Drawing.Size(140, 26);
             sphereRadius_numeric.TabIndex = 2;
             sphereRadius_numeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            sphereRadius_numeric.Value = new decimal(new int[] { 4, 0, 0, 0 });
+            sphereRadius_numeric.Value = new decimal(new int[] { 35, 0, 0, 65536 });
+            sphereRadius_numeric.ValueChanged += sphereRadius_numeric_ValueChanged;
             // 
             // label3
             // 
@@ -277,7 +278,8 @@ namespace OpenGL_Lab_5
             coneSlice_numeric.Size = new System.Drawing.Size(140, 26);
             coneSlice_numeric.TabIndex = 5;
             coneSlice_numeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            coneSlice_numeric.Value = new decimal(new int[] { 4, 0, 0, 0 });
+            coneSlice_numeric.Value = new decimal(new int[] { 2, 0, 0, 0 });
+            coneSlice_numeric.ValueChanged += coneSlice_numeric_ValueChanged;
             // 
             // label11
             // 
@@ -307,6 +309,7 @@ namespace OpenGL_Lab_5
             coneHeight_numeric.TabIndex = 3;
             coneHeight_numeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             coneHeight_numeric.Value = new decimal(new int[] { 4, 0, 0, 0 });
+            coneHeight_numeric.ValueChanged += coneHeight_numeric_ValueChanged;
             // 
             // label10
             // 
@@ -335,7 +338,8 @@ namespace OpenGL_Lab_5
             coneRadius_numeric.Size = new System.Drawing.Size(140, 26);
             coneRadius_numeric.TabIndex = 2;
             coneRadius_numeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            coneRadius_numeric.Value = new decimal(new int[] { 4, 0, 0, 0 });
+            coneRadius_numeric.Value = new decimal(new int[] { 25, 0, 0, 65536 });
+            coneRadius_numeric.ValueChanged += coneRadius_numeric_ValueChanged;
             // 
             // label8
             // 
@@ -391,7 +395,8 @@ namespace OpenGL_Lab_5
             partialDiskSweepAngle_numeric.Size = new System.Drawing.Size(140, 26);
             partialDiskSweepAngle_numeric.TabIndex = 7;
             partialDiskSweepAngle_numeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            partialDiskSweepAngle_numeric.Value = new decimal(new int[] { 4, 0, 0, 0 });
+            partialDiskSweepAngle_numeric.Value = new decimal(new int[] { 90, 0, 0, 0 });
+            partialDiskSweepAngle_numeric.ValueChanged += partialDiskSweepAngle_numeric_ValueChanged;
             // 
             // label14
             // 
@@ -417,7 +422,8 @@ namespace OpenGL_Lab_5
             partialDiskStartAngle_numeric.Size = new System.Drawing.Size(140, 26);
             partialDiskStartAngle_numeric.TabIndex = 5;
             partialDiskStartAngle_numeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            partialDiskStartAngle_numeric.Value = new decimal(new int[] { 4, 0, 0, 0 });
+            partialDiskStartAngle_numeric.Value = new decimal(new int[] { 180, 0, 0, 0 });
+            partialDiskStartAngle_numeric.ValueChanged += partialDiskStartAngle_numeric_ValueChanged;
             // 
             // label6
             // 
@@ -446,7 +452,8 @@ namespace OpenGL_Lab_5
             partialDiskOuterRadius_numeric.Size = new System.Drawing.Size(140, 26);
             partialDiskOuterRadius_numeric.TabIndex = 3;
             partialDiskOuterRadius_numeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            partialDiskOuterRadius_numeric.Value = new decimal(new int[] { 4, 0, 0, 0 });
+            partialDiskOuterRadius_numeric.Value = new decimal(new int[] { 15, 0, 0, 65536 });
+            partialDiskOuterRadius_numeric.ValueChanged += partialDiskOuterRadius_numeric_ValueChanged;
             // 
             // label7
             // 
@@ -475,7 +482,8 @@ namespace OpenGL_Lab_5
             partialDiskInnerRadius_numeric.Size = new System.Drawing.Size(140, 26);
             partialDiskInnerRadius_numeric.TabIndex = 2;
             partialDiskInnerRadius_numeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            partialDiskInnerRadius_numeric.Value = new decimal(new int[] { 4, 0, 0, 0 });
+            partialDiskInnerRadius_numeric.Value = new decimal(new int[] { 45, 0, 0, 65536 });
+            partialDiskInnerRadius_numeric.ValueChanged += partialDiskInnerRadius_numeric_ValueChanged;
             // 
             // label12
             // 
