@@ -40,8 +40,8 @@ namespace OpenGL_Lab_5
 
         private float sphereRadius = 3.5f;
 
-        private float coneHeight = 5.0f;
-        private float coneRadius = 2.5f;
+        private float coneHeight = 4.0f;
+        private float coneRadius = 2.0f;
         private float coneSlice = 2.0f;
 
         private float innerRadius = 4.5f;
@@ -177,10 +177,12 @@ namespace OpenGL_Lab_5
             float x0 = 3.0f;
             float y0 = 2.0f;
             float z0 = 2.5f;
-            
+
             float slice = coneHeight - coneSlice;
 
-            float upsilonStep = slice / segment;
+            if (slice <= 0) return;
+
+            float upsilonStep = coneHeight / segment;
             float tetaStep = 2 * float.Pi / segment;
 
             if(isFillMode)
@@ -195,21 +197,37 @@ namespace OpenGL_Lab_5
 
             glColor3d(255f / 255f, 237f / 255f, 0f / 255f);
 
+            bool isSlice = false;
+
             for (float upsilon = 0; upsilon < coneHeight; upsilon += upsilonStep)
             {
+                if ((z0 + upsilon + upsilonStep >= slice + z0) && coneSlice != 0)
+                {
+                    if (!isSlice)
+                    {
+                        upsilonStep = (slice + z0) - (z0 + upsilon);
+                        isSlice = true;
+                    }
+                    else
+                    {
+                        upsilonStep = coneHeight / segment;
+                    }
+                }
+
                 for (float teta = 0; teta < 2 * float.Pi; teta += tetaStep)
                 {
                     float x1 = x0 + (coneHeight - upsilon) / coneHeight * coneRadius * MathF.Cos(teta);
                     float y1 = y0 + (coneHeight - upsilon) / coneHeight * coneRadius * MathF.Sin(teta);
                     float z1 = z0 + upsilon;
 
-                    float x2 = x0 + (coneHeight - (upsilon + upsilonStep)) / coneHeight * coneRadius * MathF.Cos(teta);
-                    float y2 = y0 + (coneHeight - (upsilon + upsilonStep)) / coneHeight * coneRadius * MathF.Sin(teta);
-                    float z2 = z0 + upsilon + upsilonStep;
-
                     float x3 = x0 + (coneHeight - upsilon) / coneHeight * coneRadius * MathF.Cos(teta + tetaStep);
                     float y3 = y0 + (coneHeight - upsilon) / coneHeight * coneRadius * MathF.Sin(teta + tetaStep);
                     float z3 = z0 + upsilon;
+
+
+                    float x2 = x0 + (coneHeight - (upsilon + upsilonStep)) / coneHeight * coneRadius * MathF.Cos(teta);
+                    float y2 = y0 + (coneHeight - (upsilon + upsilonStep)) / coneHeight * coneRadius * MathF.Sin(teta);
+                    float z2 = z0 + upsilon + upsilonStep;
 
                     // base bottom
                     glVertex3d(x1, y1, z0);
@@ -218,7 +236,7 @@ namespace OpenGL_Lab_5
                     glVertex3d(x1, y1, z0);
                     glVertex3d(x3, y3, z0);
 
-                    if (z1 < slice + z0 || z2 < slice + z0 || z3 < slice + z0)
+                    if (z2 <= slice + z0)
                     {
                         glVertex3d(x1, y1, z1);
                         glVertex3d(x2, y2, z2);
@@ -226,9 +244,10 @@ namespace OpenGL_Lab_5
                         glVertex3d(x1, y1, z1);
                         glVertex3d(x3, y3, z3);
                     }
-                    else if (z1 > slice + z0 || z2 > slice + z0 || z3 > slice + z0)
+
+                    if(z2 > slice + z0 && coneSlice != 0)
                     {
-                        // base top
+                        //base top
                         glVertex3d(x1, y1, slice + z0);
                         glVertex3d(x2, y2, slice + z0);
 
