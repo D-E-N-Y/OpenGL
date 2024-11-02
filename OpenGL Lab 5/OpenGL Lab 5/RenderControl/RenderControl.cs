@@ -139,6 +139,9 @@ namespace OpenGL_Lab_5
             _heigth = size * 2;
             _width = size * 2;
 
+            // Enable depth
+            glEnable(GL_DEPTH_TEST);
+
             // Draw system coorditane
             DrawGrid();
             DrawAxis();

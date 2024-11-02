@@ -113,7 +113,7 @@ namespace OpenGL_Lab_5
             segments_numeric.Size = new System.Drawing.Size(140, 26);
             segments_numeric.TabIndex = 2;
             segments_numeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            segments_numeric.Value = new decimal(new int[] { 4, 0, 0, 0 });
+            segments_numeric.Value = new decimal(new int[] { 15, 0, 0, 0 });
             segments_numeric.ValueChanged += segments_numeric_ValueChanged;
             // 
             // label2
