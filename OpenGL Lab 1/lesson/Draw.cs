@@ -136,6 +136,7 @@ namespace lesson
         private void DrawPorintsFigure()
         {
             glPointSize(16);
+            glEnable(GL_POINT_SMOOTH);
             glBegin(GL_POINTS);
 
             glVertex2d(4, 2);
@@ -147,6 +148,7 @@ namespace lesson
             glVertex2d(5, 2);
 
             glEnd();
+            glDisable(GL_POINT_SMOOTH);
             glPointSize(1);
         }
     }

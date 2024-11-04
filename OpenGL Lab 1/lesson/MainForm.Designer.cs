@@ -53,7 +53,7 @@ namespace lesson
             Controls.Add(renderControl1);
             Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             Name = "MainForm";
-            Text = "Main Form";
+            Text = "Lab 1";
             ResumeLayout(false);
         }
 
