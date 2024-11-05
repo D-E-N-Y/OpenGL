@@ -16,3 +16,22 @@ C:\Users\mysli\source\repos\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.
 C:\Users\mysli\source\repos\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL Lab 2.pdb
 C:\Users\mysli\source\repos\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL Lab 2.genruntimeconfig.cache
 C:\Users\mysli\source\repos\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\ref\OpenGL Lab 2.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\bin\Debug\net8.0-windows7.0\OpenGL Lab 2.exe
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\bin\Debug\net8.0-windows7.0\OpenGL Lab 2.deps.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\bin\Debug\net8.0-windows7.0\OpenGL Lab 2.runtimeconfig.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\bin\Debug\net8.0-windows7.0\OpenGL Lab 2.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\bin\Debug\net8.0-windows7.0\OpenGL Lab 2.pdb
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL_Lab_2.MainForm.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL_Lab_2.OpenGL.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL_Lab_2.RenderControl.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL Lab 2.csproj.GenerateResource.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL Lab 2.GeneratedMSBuildEditorConfig.editorconfig
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL Lab 2.AssemblyInfoInputs.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL Lab 2.AssemblyInfo.cs
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL Lab 2.csproj.CoreCompileInputs.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL Lab 2.sourcelink.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL Lab 2.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\refint\OpenGL Lab 2.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL Lab 2.pdb
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\OpenGL Lab 2.genruntimeconfig.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 2\OpenGL Lab 2\obj\Debug\net8.0-windows7.0\ref\OpenGL Lab 2.dll

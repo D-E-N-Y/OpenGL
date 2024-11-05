@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mysli\\source\\repos\\OpenGL Lab 2\\",
+  "WorkspaceRootPath": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF8641DC-4502-414F-BEF6-51F620D1B915}|OpenGL Lab 2\\OpenGL Lab 2.csproj|c:\\users\\mysli\\source\\repos\\opengl lab 2\\opengl lab 2\\rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF8641DC-4502-414F-BEF6-51F620D1B915}|OpenGL Lab 2\\OpenGL Lab 2.csproj|e:\\\u0445\u0430\u0456\\3 \u043A\u0443\u0440\u0441\\opengl\\opengl lab 2\\opengl lab 2\\rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF8641DC-4502-414F-BEF6-51F620D1B915}|OpenGL Lab 2\\OpenGL Lab 2.csproj|solutionrelative:opengl lab 2\\rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF8641DC-4502-414F-BEF6-51F620D1B915}|OpenGL Lab 2\\OpenGL Lab 2.csproj|C:\\Users\\mysli\\source\\repos\\OpenGL Lab 2\\opengl lab 2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EF8641DC-4502-414F-BEF6-51F620D1B915}|OpenGL Lab 2\\OpenGL Lab 2.csproj|solutionrelative:opengl lab 2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EF8641DC-4502-414F-BEF6-51F620D1B915}|OpenGL Lab 2\\OpenGL Lab 2.csproj|e:\\\u0445\u0430\u0456\\3 \u043A\u0443\u0440\u0441\\opengl\\opengl lab 2\\opengl lab 2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF8641DC-4502-414F-BEF6-51F620D1B915}|OpenGL Lab 2\\OpenGL Lab 2.csproj|solutionrelative:opengl lab 2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF8641DC-4502-414F-BEF6-51F620D1B915}|OpenGL Lab 2\\OpenGL Lab 2.csproj|c:\\users\\mysli\\source\\repos\\opengl lab 2\\opengl lab 2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF8641DC-4502-414F-BEF6-51F620D1B915}|OpenGL Lab 2\\OpenGL Lab 2.csproj|solutionrelative:opengl lab 2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF8641DC-4502-414F-BEF6-51F620D1B915}|OpenGL Lab 2\\OpenGL Lab 2.csproj|e:\\\u0445\u0430\u0456\\3 \u043A\u0443\u0440\u0441\\opengl\\opengl lab 2\\opengl lab 2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF8641DC-4502-414F-BEF6-51F620D1B915}|OpenGL Lab 2\\OpenGL Lab 2.csproj|solutionrelative:opengl lab 2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +26,39 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mysli\\source\\repos\\OpenGL Lab 2\\OpenGL Lab 2\\MainForm.cs",
+              "DocumentMoniker": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 2\\OpenGL Lab 2\\MainForm.cs",
               "RelativeDocumentMoniker": "OpenGL Lab 2\\MainForm.cs",
-              "ToolTip": "C:\\Users\\mysli\\source\\repos\\OpenGL Lab 2\\OpenGL Lab 2\\MainForm.cs [Design]",
+              "ToolTip": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 2\\OpenGL Lab 2\\MainForm.cs [Design]",
               "RelativeToolTip": "OpenGL Lab 2\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T12:00:39.295Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\mysli\\source\\repos\\OpenGL Lab 2\\OpenGL Lab 2\\MainForm.cs",
+              "DocumentMoniker": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 2\\OpenGL Lab 2\\MainForm.cs",
               "RelativeDocumentMoniker": "OpenGL Lab 2\\MainForm.cs",
-              "ToolTip": "C:\\Users\\mysli\\source\\repos\\OpenGL Lab 2\\OpenGL Lab 2\\MainForm.cs",
+              "ToolTip": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 2\\OpenGL Lab 2\\MainForm.cs",
               "RelativeToolTip": "OpenGL Lab 2\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T08:18:15.498Z"
+              "WhenOpened": "2024-10-04T08:18:15.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RenderControl.cs",
-              "DocumentMoniker": "C:\\Users\\mysli\\source\\repos\\OpenGL Lab 2\\OpenGL Lab 2\\RenderControl\\RenderControl.cs",
+              "DocumentMoniker": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 2\\OpenGL Lab 2\\RenderControl\\RenderControl.cs",
               "RelativeDocumentMoniker": "OpenGL Lab 2\\RenderControl\\RenderControl.cs",
-              "ToolTip": "C:\\Users\\mysli\\source\\repos\\OpenGL Lab 2\\OpenGL Lab 2\\RenderControl\\RenderControl.cs",
+              "ToolTip": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 2\\OpenGL Lab 2\\RenderControl\\RenderControl.cs",
               "RelativeToolTip": "OpenGL Lab 2\\RenderControl\\RenderControl.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwFgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAzwJYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T12:10:31.894Z",
               "EditorCaption": ""

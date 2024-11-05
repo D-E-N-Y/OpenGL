@@ -45,10 +45,12 @@ namespace OpenGL_Lab_2
             smoothModel = new System.Windows.Forms.RadioButton();
             panel1 = new System.Windows.Forms.Panel();
             panel2 = new System.Windows.Forms.Panel();
+            panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)horValue).BeginInit();
             ((System.ComponentModel.ISupportInitialize)verValue).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // renderControl1
@@ -66,12 +68,13 @@ namespace OpenGL_Lab_2
             // 
             horValue.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
             horValue.BackColor = System.Drawing.Color.FromArgb(30, 30, 30);
+            horValue.BorderStyle = System.Windows.Forms.BorderStyle.None;
             horValue.Font = new System.Drawing.Font("Consolas", 14.25F);
             horValue.ForeColor = System.Drawing.Color.White;
-            horValue.Location = new System.Drawing.Point(768, 92);
+            horValue.Location = new System.Drawing.Point(151, 54);
             horValue.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             horValue.Name = "horValue";
-            horValue.Size = new System.Drawing.Size(86, 30);
+            horValue.Size = new System.Drawing.Size(86, 26);
             horValue.TabIndex = 1;
             horValue.Value = new decimal(new int[] { 1, 0, 0, 0 });
             horValue.ValueChanged += horValue_ValueChanged;
@@ -82,7 +85,7 @@ namespace OpenGL_Lab_2
             label1.AutoSize = true;
             label1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold);
             label1.ForeColor = System.Drawing.Color.White;
-            label1.Location = new System.Drawing.Point(632, 94);
+            label1.Location = new System.Drawing.Point(15, 56);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(130, 22);
             label1.TabIndex = 2;
@@ -94,7 +97,7 @@ namespace OpenGL_Lab_2
             label2.AutoSize = true;
             label2.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold);
             label2.ForeColor = System.Drawing.Color.White;
-            label2.Location = new System.Drawing.Point(632, 139);
+            label2.Location = new System.Drawing.Point(15, 101);
             label2.Name = "label2";
             label2.Size = new System.Drawing.Size(130, 22);
             label2.TabIndex = 4;
@@ -104,12 +107,13 @@ namespace OpenGL_Lab_2
             // 
             verValue.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
             verValue.BackColor = System.Drawing.Color.FromArgb(30, 30, 30);
+            verValue.BorderStyle = System.Windows.Forms.BorderStyle.None;
             verValue.Font = new System.Drawing.Font("Consolas", 14.25F);
             verValue.ForeColor = System.Drawing.Color.White;
-            verValue.Location = new System.Drawing.Point(768, 137);
+            verValue.Location = new System.Drawing.Point(151, 99);
             verValue.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             verValue.Name = "verValue";
-            verValue.Size = new System.Drawing.Size(86, 30);
+            verValue.Size = new System.Drawing.Size(86, 26);
             verValue.TabIndex = 3;
             verValue.Value = new decimal(new int[] { 1, 0, 0, 0 });
             verValue.ValueChanged += verValue_ValueChanged;
@@ -121,7 +125,7 @@ namespace OpenGL_Lab_2
             fillMode.Checked = true;
             fillMode.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             fillMode.ForeColor = System.Drawing.Color.White;
-            fillMode.Location = new System.Drawing.Point(11, 52);
+            fillMode.Location = new System.Drawing.Point(32, 52);
             fillMode.Name = "fillMode";
             fillMode.Size = new System.Drawing.Size(68, 26);
             fillMode.TabIndex = 5;
@@ -136,7 +140,7 @@ namespace OpenGL_Lab_2
             lineMode.AutoSize = true;
             lineMode.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             lineMode.ForeColor = System.Drawing.Color.White;
-            lineMode.Location = new System.Drawing.Point(11, 84);
+            lineMode.Location = new System.Drawing.Point(32, 84);
             lineMode.Name = "lineMode";
             lineMode.Size = new System.Drawing.Size(68, 26);
             lineMode.TabIndex = 6;
@@ -150,7 +154,7 @@ namespace OpenGL_Lab_2
             pointsMode.AutoSize = true;
             pointsMode.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             pointsMode.ForeColor = System.Drawing.Color.White;
-            pointsMode.Location = new System.Drawing.Point(11, 116);
+            pointsMode.Location = new System.Drawing.Point(32, 116);
             pointsMode.Name = "pointsMode";
             pointsMode.Size = new System.Drawing.Size(88, 26);
             pointsMode.TabIndex = 7;
@@ -164,7 +168,7 @@ namespace OpenGL_Lab_2
             label3.AutoSize = true;
             label3.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold);
             label3.ForeColor = System.Drawing.Color.White;
-            label3.Location = new System.Drawing.Point(22, 12);
+            label3.Location = new System.Drawing.Point(32, 12);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(194, 28);
             label3.TabIndex = 8;
@@ -176,7 +180,7 @@ namespace OpenGL_Lab_2
             label4.AutoSize = true;
             label4.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold);
             label4.ForeColor = System.Drawing.Color.White;
-            label4.Location = new System.Drawing.Point(634, 52);
+            label4.Location = new System.Drawing.Point(17, 14);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(220, 28);
             label4.TabIndex = 9;
@@ -188,7 +192,7 @@ namespace OpenGL_Lab_2
             label5.AutoSize = true;
             label5.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold);
             label5.ForeColor = System.Drawing.Color.White;
-            label5.Location = new System.Drawing.Point(22, 12);
+            label5.Location = new System.Drawing.Point(43, 12);
             label5.Name = "label5";
             label5.Size = new System.Drawing.Size(155, 28);
             label5.TabIndex = 12;
@@ -200,7 +204,7 @@ namespace OpenGL_Lab_2
             flatModel.AutoSize = true;
             flatModel.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             flatModel.ForeColor = System.Drawing.Color.White;
-            flatModel.Location = new System.Drawing.Point(11, 84);
+            flatModel.Location = new System.Drawing.Point(32, 84);
             flatModel.Name = "flatModel";
             flatModel.Size = new System.Drawing.Size(68, 26);
             flatModel.TabIndex = 11;
@@ -215,7 +219,7 @@ namespace OpenGL_Lab_2
             smoothModel.Checked = true;
             smoothModel.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             smoothModel.ForeColor = System.Drawing.Color.White;
-            smoothModel.Location = new System.Drawing.Point(11, 52);
+            smoothModel.Location = new System.Drawing.Point(32, 52);
             smoothModel.Name = "smoothModel";
             smoothModel.Size = new System.Drawing.Size(88, 26);
             smoothModel.TabIndex = 10;
@@ -226,40 +230,52 @@ namespace OpenGL_Lab_2
             // 
             // panel1
             // 
-            panel1.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            panel1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            panel1.BackColor = System.Drawing.Color.FromArgb(22, 22, 22);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(fillMode);
             panel1.Controls.Add(lineMode);
             panel1.Controls.Add(pointsMode);
-            panel1.Location = new System.Drawing.Point(632, 190);
+            panel1.Location = new System.Drawing.Point(618, 229);
             panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(222, 151);
+            panel1.Size = new System.Drawing.Size(243, 157);
             panel1.TabIndex = 13;
             // 
             // panel2
             // 
-            panel2.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right;
+            panel2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            panel2.BackColor = System.Drawing.Color.FromArgb(22, 22, 22);
             panel2.Controls.Add(label5);
             panel2.Controls.Add(smoothModel);
             panel2.Controls.Add(flatModel);
-            panel2.Location = new System.Drawing.Point(632, 370);
+            panel2.Location = new System.Drawing.Point(618, 392);
             panel2.Name = "panel2";
-            panel2.Size = new System.Drawing.Size(222, 151);
+            panel2.Size = new System.Drawing.Size(243, 126);
             panel2.TabIndex = 14;
+            // 
+            // panel3
+            // 
+            panel3.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            panel3.BackColor = System.Drawing.Color.FromArgb(22, 22, 22);
+            panel3.Controls.Add(label4);
+            panel3.Controls.Add(horValue);
+            panel3.Controls.Add(label1);
+            panel3.Controls.Add(label2);
+            panel3.Controls.Add(verValue);
+            panel3.Location = new System.Drawing.Point(618, 72);
+            panel3.Name = "panel3";
+            panel3.Size = new System.Drawing.Size(243, 151);
+            panel3.TabIndex = 14;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            BackColor = System.Drawing.Color.FromArgb(17, 17, 17);
+            BackColor = System.Drawing.Color.FromArgb(20, 20, 20);
             ClientSize = new System.Drawing.Size(873, 581);
+            Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Controls.Add(label4);
-            Controls.Add(label2);
-            Controls.Add(verValue);
-            Controls.Add(label1);
-            Controls.Add(horValue);
             Controls.Add(renderControl1);
             Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
             Name = "MainForm";
@@ -271,8 +287,9 @@ namespace OpenGL_Lab_2
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -292,6 +309,7 @@ namespace OpenGL_Lab_2
         private System.Windows.Forms.RadioButton smoothModel;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 
