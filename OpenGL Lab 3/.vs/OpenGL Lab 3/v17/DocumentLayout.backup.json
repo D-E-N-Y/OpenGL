@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26ED967E-9073-4115-B72F-607B183DB568}|OpenGL Lab 3\\OpenGL Lab 3.csproj|e:\\\u0445\u0430\u0456\\3 \u043A\u0443\u0440\u0441\\opengl\\opengl lab 3\\opengl lab 3\\functwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26ED967E-9073-4115-B72F-607B183DB568}|OpenGL Lab 3\\OpenGL Lab 3.csproj|solutionrelative:opengl lab 3\\functwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26ED967E-9073-4115-B72F-607B183DB568}|OpenGL Lab 3\\OpenGL Lab 3.csproj|e:\\\u0445\u0430\u0456\\3 \u043A\u0443\u0440\u0441\\opengl\\opengl lab 3\\opengl lab 3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26ED967E-9073-4115-B72F-607B183DB568}|OpenGL Lab 3\\OpenGL Lab 3.csproj|solutionrelative:opengl lab 3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26ED967E-9073-4115-B72F-607B183DB568}|OpenGL Lab 3\\OpenGL Lab 3.csproj|E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 3\\opengl lab 3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26ED967E-9073-4115-B72F-607B183DB568}|OpenGL Lab 3\\OpenGL Lab 3.csproj|solutionrelative:opengl lab 3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{26ED967E-9073-4115-B72F-607B183DB568}|OpenGL Lab 3\\OpenGL Lab 3.csproj|e:\\\u0445\u0430\u0456\\3 \u043A\u0443\u0440\u0441\\opengl\\opengl lab 3\\opengl lab 3\\functwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26ED967E-9073-4115-B72F-607B183DB568}|OpenGL Lab 3\\OpenGL Lab 3.csproj|solutionrelative:opengl lab 3\\functwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26ED967E-9073-4115-B72F-607B183DB568}|OpenGL Lab 3\\OpenGL Lab 3.csproj|e:\\\u0445\u0430\u0456\\3 \u043A\u0443\u0440\u0441\\opengl\\opengl lab 3\\opengl lab 3\\funcone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,28 +34,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 3\\OpenGL Lab 3\\MainForm.cs",
               "RelativeDocumentMoniker": "OpenGL Lab 3\\MainForm.cs",
-              "ToolTip": "C:\\Users\\mysli\\source\\repos\\OpenGL Lab 3\\OpenGL Lab 3\\MainForm.cs [Design]",
+              "ToolTip": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 3\\OpenGL Lab 3\\MainForm.cs [Design]",
+              "RelativeToolTip": "OpenGL Lab 3\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T13:41:17.772Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FuncTwo.cs",
               "DocumentMoniker": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 3\\OpenGL Lab 3\\FuncTwo.cs",
               "RelativeDocumentMoniker": "OpenGL Lab 3\\FuncTwo.cs",
               "ToolTip": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 3\\OpenGL Lab 3\\FuncTwo.cs",
               "RelativeToolTip": "OpenGL Lab 3\\FuncTwo.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAwwHgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAIwJ4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T10:37:55.034Z",
               "EditorCaption": ""
@@ -68,9 +70,10 @@
               "RelativeDocumentMoniker": "OpenGL Lab 3\\FuncOne.cs",
               "ToolTip": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 3\\OpenGL Lab 3\\FuncOne.cs",
               "RelativeToolTip": "OpenGL Lab 3\\FuncOne.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAwwGkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwHoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:37:42.594Z"
+              "WhenOpened": "2024-10-27T10:37:42.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -80,9 +83,10 @@
               "RelativeDocumentMoniker": "OpenGL Lab 3\\Draw.cs",
               "ToolTip": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 3\\OpenGL Lab 3\\Draw.cs",
               "RelativeToolTip": "OpenGL Lab 3\\Draw.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAIwGwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAIwH4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:30:17.138Z"
+              "WhenOpened": "2024-10-27T10:30:17.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -92,9 +96,10 @@
               "RelativeDocumentMoniker": "OpenGL Lab 3\\RenderControl\\RenderControl.cs",
               "ToolTip": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 3\\OpenGL Lab 3\\RenderControl\\RenderControl.cs",
               "RelativeToolTip": "OpenGL Lab 3\\RenderControl\\RenderControl.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAADwv70AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAUwMwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:56:35.833Z"
+              "WhenOpened": "2024-10-26T08:56:35.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -104,9 +109,10 @@
               "RelativeDocumentMoniker": "OpenGL Lab 3\\MainForm.cs",
               "ToolTip": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 3\\OpenGL Lab 3\\MainForm.cs",
               "RelativeToolTip": "OpenGL Lab 3\\MainForm.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAcwK4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAALwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:56:16.989Z"
+              "WhenOpened": "2024-10-26T08:56:16.989Z",
+              "EditorCaption": ""
             }
           ]
         }

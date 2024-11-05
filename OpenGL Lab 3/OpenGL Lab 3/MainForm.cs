@@ -8,13 +8,21 @@ namespace OpenGL_Lab_3
 {
     public partial class MainForm : Form
     {
+        private float step = 0.1f;
+
         public MainForm()
         {
             InitializeComponent();
+
+            // set mix max value for X numerics
+            Xmax_numeric.Minimum = Xmin_numeric.Value + (decimal)step;
+            Xmin_numeric.Maximum = Xmax_numeric.Value - (decimal)step;
         }
 
         private void Xmin_numeric_ValueChanged(object sender, System.EventArgs e)
         {
+            Xmax_numeric.Minimum = Xmin_numeric.Value + (decimal)step;
+
             switch (tabControl1.SelectedIndex)
             {
                 case 0:
@@ -29,6 +37,8 @@ namespace OpenGL_Lab_3
 
         private void Xmax_numeric_ValueChanged(object sender, System.EventArgs e)
         {
+            Xmin_numeric.Maximum = Xmax_numeric.Value - (decimal)step;
+
             switch (tabControl1.SelectedIndex)
             {
                 case 0:
