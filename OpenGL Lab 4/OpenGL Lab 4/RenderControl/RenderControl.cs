@@ -11,8 +11,13 @@ namespace OpenGL_Lab_4
 {
     public partial class RenderControl : OpenGL
     {
-        private float Xmin = -3f, Xmax = 3f;
-        private float Ymin = -3f, Ymax = 3f;
+        private float size = 3.0f;
+        private float AspectRatio { get => (float)Width / Height; }
+
+        private float Xmin { get => (AspectRatio > 1) ? -size * AspectRatio : -size; }
+        private float Xmax { get => (AspectRatio > 1) ? +size * AspectRatio : +size; }
+        private float Ymin { get => (AspectRatio < 1) ? -size / AspectRatio : -size; }
+        private float Ymax { get => (AspectRatio < 1) ? +size / AspectRatio : +size; }
 
         private float margin = 0.2f;
         private float step = 0.5f;
@@ -320,74 +325,6 @@ namespace OpenGL_Lab_4
                     glColor3d(64f / 255f, 224f / 255f, 208f / 255f);
                 }
             }
-
-            //float a1 = x2 - x1;
-            //float a2 = x4 - x3;
-            //float a3 = x3 - x1;
-
-            //float b1 = y2 - y1;
-            //float b2 = y4 - y3;
-            //float b3 = y3 - y1;
-
-            //float _a1 = a1;
-            //float _b1 = b1;
-
-            //if (a1 > 0 && b1 > 0)
-            //{
-            //    _a1 = a1;
-            //    _b1 = -b1;
-
-            //    a1 *= _b1;
-            //    a2 *= _b1;
-            //    a3 *= _b1;
-
-            //    b1 *= _a1;
-            //    b2 *= _a1;
-            //    b3 *= _a1;
-            //}
-            //else
-            //{
-            //    _a1 = a1;
-            //    _b1 = b1;
-
-            //    a1 *= _b1;
-            //    a2 *= _b1;
-            //    a3 *= _b1;
-
-            //    b1 *= _a1;
-            //    b2 *= _a1;
-            //    b3 *= _a1;
-            //}
-
-            //t2 = (b3 - a3) / (a2 - b2);
-
-            //a1 = x2 - x1;
-            //a2 = x4 - x3;
-            //a3 = x3 - x1;
-
-            //t1 = (a3 - a2 * t2) / a1;
-
-            //if ((t1 >= 0 && t1 <= 1) && (t2 >= 0 && t2 <= 1))
-            //{
-            //    x0 = (x2 - x1) * t1 + x1;
-            //    y0 = (y2 - y1) * t1 + y1;
-
-            //    // end draw function
-            //    glEnd();
-
-            //    glPointSize(20);
-
-            //    glBegin(GL_POINTS);
-            //    glColor3d(255f / 255f, 255f / 255f, 0f / 255f);
-
-            //    glVertex2d(x0, y0);
-
-            //    glEnd();
-
-            //    // continue draw function
-            //    glBegin(GL_LINES);
-            //    glColor3d(64f / 255f, 224f / 255f, 208f / 255f);
-            //}
         }
 
         private void DrawHyperbole()
@@ -415,7 +352,7 @@ namespace OpenGL_Lab_4
                     continue;
                 }
 
-                if(x > Xmin)
+                if(x > Xmin + c)
                 {
                     glVertex2d(_x, _y);
                     glVertex2d(x, y);
