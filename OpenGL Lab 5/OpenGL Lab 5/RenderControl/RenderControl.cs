@@ -166,7 +166,7 @@ namespace OpenGL_Lab_5
             glTranslatef(x0, y0, z0);
 
             glColor3d(127f / 255f, 255f / 255f, 0f / 255f);
-            gluPartialDisk(id, size / innerRadius, size / outerRadius, (int)segment, 1, startAngle, sweepAngle);
+            gluPartialDisk(id, outerRadius, innerRadius, (int)segment, 1, startAngle, sweepAngle);
 
             glPopMatrix();
             gluDeleteQuadric(id);
@@ -185,7 +185,7 @@ namespace OpenGL_Lab_5
             float upsilonStep = coneHeight / segment;
             float tetaStep = 2 * float.Pi / segment;
 
-            if(isFillMode)
+            if (isFillMode)
             {
                 glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
                 glBegin(GL_POLYGON);
@@ -193,14 +193,20 @@ namespace OpenGL_Lab_5
             else
             {
                 glBegin(GL_LINES);
+
+                //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+                //glBegin(GL_POLYGON);
             }
 
-            glColor3d(255f / 255f, 237f / 255f, 0f / 255f);
-
+            //glColor3d(255f / 255f, 237f / 255f, 0f / 255f);
             bool isSlice = false;
 
             for (float upsilon = 0; upsilon < coneHeight; upsilon += upsilonStep)
             {
+                // Изменяем цвет на каждом шаге upsilon
+                float yellowShade = 0.5f + 0.5f * (upsilon / coneHeight);  // Оттенок желтого (от 0.5 до 1.0)
+                glColor3d(yellowShade, yellowShade * 0.93, 0.0f);  // Подбираем значения для желтого
+
                 if ((z0 + upsilon + upsilonStep >= slice + z0) && coneSlice != 0)
                 {
                     if (!isSlice)
@@ -279,11 +285,15 @@ namespace OpenGL_Lab_5
                 glBegin(GL_LINES);
             }
 
-            glColor3d(64f / 255f, 224f / 255f, 208f / 255f);
+            //glColor3d(64f / 255f, 224f / 255f, 208f / 255f);
 
             for (float teta = 0.0f; teta < float.Pi; teta += stepTeta)
             {
-                for(float phi = 0.0f; phi < 2 * float.Pi; phi += stepPhi)
+                // Вычисляем оттенок бирюзового в зависимости от `teta`, чтобы получить градиентный эффект
+                float turquoiseShade = 0.5f + 0.5f * (teta / MathF.PI); // Изменение интенсивности цвета от 0.5 до 1.0
+                glColor3d(64f / 255f * turquoiseShade, 224f / 255f * turquoiseShade, 208f / 255f * turquoiseShade);
+
+                for (float phi = 0.0f; phi < 2 * float.Pi; phi += stepPhi)
                 {
                     float x1 = x0 + sphereRadius * MathF.Sin(teta) * MathF.Cos(phi);
                     float y1 = y0 + sphereRadius * MathF.Sin(teta) * MathF.Sin(phi);
