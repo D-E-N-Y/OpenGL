@@ -1,0 +1,19 @@
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\bin\Debug\net8.0-windows7.0\OpenGL Lab 6.exe
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\bin\Debug\net8.0-windows7.0\OpenGL Lab 6.deps.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\bin\Debug\net8.0-windows7.0\OpenGL Lab 6.runtimeconfig.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\bin\Debug\net8.0-windows7.0\OpenGL Lab 6.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\bin\Debug\net8.0-windows7.0\OpenGL Lab 6.pdb
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL_Lab_6.MainForm.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL_Lab_6.OpenGL.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL_Lab_6.RenderControl.resources
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL Lab 6.csproj.GenerateResource.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL Lab 6.GeneratedMSBuildEditorConfig.editorconfig
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL Lab 6.AssemblyInfoInputs.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL Lab 6.AssemblyInfo.cs
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL Lab 6.csproj.CoreCompileInputs.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL Lab 6.sourcelink.json
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL Lab 6.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\refint\OpenGL Lab 6.dll
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL Lab 6.pdb
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\OpenGL Lab 6.genruntimeconfig.cache
+E:\ХАІ\3 курс\OpenGL\OpenGL Lab 6\OpenGL Lab 6\obj\Debug\net8.0-windows7.0\ref\OpenGL Lab 6.dll

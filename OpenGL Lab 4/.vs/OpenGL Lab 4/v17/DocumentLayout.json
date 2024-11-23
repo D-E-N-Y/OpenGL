@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07D10FEE-F56A-4CB6-B9DC-79CEC175807C}|OpenGL Lab 4\\OpenGL Lab 4.csproj|e:\\\u0445\u0430\u0456\\3 \u043A\u0443\u0440\u0441\\opengl\\opengl lab 4\\opengl lab 4\\rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07D10FEE-F56A-4CB6-B9DC-79CEC175807C}|OpenGL Lab 4\\OpenGL Lab 4.csproj|solutionrelative:opengl lab 4\\rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07D10FEE-F56A-4CB6-B9DC-79CEC175807C}|OpenGL Lab 4\\OpenGL Lab 4.csproj|E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 4\\opengl lab 4\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07D10FEE-F56A-4CB6-B9DC-79CEC175807C}|OpenGL Lab 4\\OpenGL Lab 4.csproj|solutionrelative:opengl lab 4\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07D10FEE-F56A-4CB6-B9DC-79CEC175807C}|OpenGL Lab 4\\OpenGL Lab 4.csproj|e:\\\u0445\u0430\u0456\\3 \u043A\u0443\u0440\u0441\\opengl\\opengl lab 4\\opengl lab 4\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07D10FEE-F56A-4CB6-B9DC-79CEC175807C}|OpenGL Lab 4\\OpenGL Lab 4.csproj|solutionrelative:opengl lab 4\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07D10FEE-F56A-4CB6-B9DC-79CEC175807C}|OpenGL Lab 4\\OpenGL Lab 4.csproj|e:\\\u0445\u0430\u0456\\3 \u043A\u0443\u0440\u0441\\opengl\\opengl lab 4\\opengl lab 4\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{07D10FEE-F56A-4CB6-B9DC-79CEC175807C}|OpenGL Lab 4\\OpenGL Lab 4.csproj|solutionrelative:opengl lab 4\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{07D10FEE-F56A-4CB6-B9DC-79CEC175807C}|OpenGL Lab 4\\OpenGL Lab 4.csproj|e:\\\u0445\u0430\u0456\\3 \u043A\u0443\u0440\u0441\\opengl\\opengl lab 4\\opengl lab 4\\rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07D10FEE-F56A-4CB6-B9DC-79CEC175807C}|OpenGL Lab 4\\OpenGL Lab 4.csproj|solutionrelative:opengl lab 4\\rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 4\\OpenGL Lab 4\\MainForm.cs",
               "RelativeDocumentMoniker": "OpenGL Lab 4\\MainForm.cs",
@@ -52,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RenderControl.cs",
               "DocumentMoniker": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 4\\OpenGL Lab 4\\RenderControl\\RenderControl.cs",
               "RelativeDocumentMoniker": "OpenGL Lab 4\\RenderControl\\RenderControl.cs",
               "ToolTip": "E:\\\u0425\u0410\u0406\\3 \u043A\u0443\u0440\u0441\\OpenGL\\OpenGL Lab 4\\OpenGL Lab 4\\RenderControl\\RenderControl.cs",
               "RelativeToolTip": "OpenGL Lab 4\\RenderControl\\RenderControl.cs",
-              "ViewState": "AgIAAFABAAAAAAAAAAAAAF0BAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAANYAAAAAAAAAAAAQwBUBAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T14:02:11.732Z",
               "EditorCaption": ""

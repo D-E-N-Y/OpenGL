@@ -43,6 +43,8 @@ namespace OpenGL_Lab_5
             Name = "RenderControl";
             Size = new Size(480, 300);
             Render += OnRender;
+            ContextCreated += Start;
+            ContextDeleting += Destroy;
             MouseDown += OnMouseDown;
             MouseMove += OnMouseMove;
             MouseUp += OnMouseUp;

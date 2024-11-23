@@ -67,5 +67,15 @@ namespace OpenGL_Lab_5
         {
             renderControl1.SetPDSweepAngle((float)partialDiskSweepAngle_numeric.Value);
         }
+
+        private void ortho_radioButton_CheckedChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetRenderMode(false);
+        }
+
+        private void perspective_radioButton_CheckedChanged(object sender, System.EventArgs e)
+        {
+            renderControl1.SetRenderMode(true);
+        }
     }
 }

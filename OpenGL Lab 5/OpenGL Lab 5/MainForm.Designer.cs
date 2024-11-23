@@ -61,6 +61,10 @@ namespace OpenGL_Lab_5
             partialDiskInnerRadius_numeric = new System.Windows.Forms.NumericUpDown();
             label12 = new System.Windows.Forms.Label();
             label13 = new System.Windows.Forms.Label();
+            panel6 = new System.Windows.Forms.Panel();
+            perspective_radioButton = new System.Windows.Forms.RadioButton();
+            ortho_radioButton = new System.Windows.Forms.RadioButton();
+            label15 = new System.Windows.Forms.Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)segments_numeric).BeginInit();
             panel2.SuspendLayout();
@@ -75,6 +79,7 @@ namespace OpenGL_Lab_5
             ((System.ComponentModel.ISupportInitialize)partialDiskStartAngle_numeric).BeginInit();
             ((System.ComponentModel.ISupportInitialize)partialDiskOuterRadius_numeric).BeginInit();
             ((System.ComponentModel.ISupportInitialize)partialDiskInnerRadius_numeric).BeginInit();
+            panel6.SuspendLayout();
             SuspendLayout();
             // 
             // renderControl1
@@ -134,7 +139,7 @@ namespace OpenGL_Lab_5
             label1.BackColor = System.Drawing.Color.Transparent;
             label1.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label1.ForeColor = System.Drawing.Color.White;
-            label1.Location = new System.Drawing.Point(68, 12);
+            label1.Location = new System.Drawing.Point(78, 12);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(149, 32);
             label1.TabIndex = 2;
@@ -149,7 +154,7 @@ namespace OpenGL_Lab_5
             panel2.Controls.Add(label4);
             panel2.Location = new System.Drawing.Point(798, 123);
             panel2.Name = "panel2";
-            panel2.Size = new System.Drawing.Size(303, 121);
+            panel2.Size = new System.Drawing.Size(141, 121);
             panel2.TabIndex = 3;
             // 
             // line_radioButton
@@ -158,7 +163,7 @@ namespace OpenGL_Lab_5
             line_radioButton.BackColor = System.Drawing.Color.Transparent;
             line_radioButton.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             line_radioButton.ForeColor = System.Drawing.Color.White;
-            line_radioButton.Location = new System.Drawing.Point(108, 86);
+            line_radioButton.Location = new System.Drawing.Point(31, 77);
             line_radioButton.Name = "line_radioButton";
             line_radioButton.Size = new System.Drawing.Size(68, 26);
             line_radioButton.TabIndex = 4;
@@ -173,7 +178,7 @@ namespace OpenGL_Lab_5
             fill_radioButton.Checked = true;
             fill_radioButton.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             fill_radioButton.ForeColor = System.Drawing.Color.White;
-            fill_radioButton.Location = new System.Drawing.Point(108, 54);
+            fill_radioButton.Location = new System.Drawing.Point(31, 45);
             fill_radioButton.Name = "fill_radioButton";
             fill_radioButton.Size = new System.Drawing.Size(68, 26);
             fill_radioButton.TabIndex = 3;
@@ -188,7 +193,7 @@ namespace OpenGL_Lab_5
             label4.BackColor = System.Drawing.Color.Transparent;
             label4.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label4.ForeColor = System.Drawing.Color.White;
-            label4.Location = new System.Drawing.Point(83, 10);
+            label4.Location = new System.Drawing.Point(14, 10);
             label4.Name = "label4";
             label4.Size = new System.Drawing.Size(119, 32);
             label4.TabIndex = 2;
@@ -452,7 +457,7 @@ namespace OpenGL_Lab_5
             partialDiskOuterRadius_numeric.Size = new System.Drawing.Size(140, 26);
             partialDiskOuterRadius_numeric.TabIndex = 3;
             partialDiskOuterRadius_numeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            partialDiskOuterRadius_numeric.Value = new decimal(new int[] { 15, 0, 0, 65536 });
+            partialDiskOuterRadius_numeric.Value = new decimal(new int[] { 45, 0, 0, 65536 });
             partialDiskOuterRadius_numeric.ValueChanged += partialDiskOuterRadius_numeric_ValueChanged;
             // 
             // label7
@@ -482,7 +487,7 @@ namespace OpenGL_Lab_5
             partialDiskInnerRadius_numeric.Size = new System.Drawing.Size(140, 26);
             partialDiskInnerRadius_numeric.TabIndex = 2;
             partialDiskInnerRadius_numeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            partialDiskInnerRadius_numeric.Value = new decimal(new int[] { 45, 0, 0, 65536 });
+            partialDiskInnerRadius_numeric.Value = new decimal(new int[] { 15, 0, 0, 65536 });
             partialDiskInnerRadius_numeric.ValueChanged += partialDiskInnerRadius_numeric_ValueChanged;
             // 
             // label12
@@ -509,12 +514,67 @@ namespace OpenGL_Lab_5
             label13.TabIndex = 2;
             label13.Text = "Partial disk";
             // 
+            // panel6
+            // 
+            panel6.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            panel6.BackColor = System.Drawing.Color.FromArgb(22, 22, 22);
+            panel6.Controls.Add(perspective_radioButton);
+            panel6.Controls.Add(ortho_radioButton);
+            panel6.Controls.Add(label15);
+            panel6.Location = new System.Drawing.Point(945, 123);
+            panel6.Name = "panel6";
+            panel6.Size = new System.Drawing.Size(156, 121);
+            panel6.TabIndex = 5;
+            // 
+            // perspective_radioButton
+            // 
+            perspective_radioButton.AutoSize = true;
+            perspective_radioButton.BackColor = System.Drawing.Color.Transparent;
+            perspective_radioButton.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            perspective_radioButton.ForeColor = System.Drawing.Color.White;
+            perspective_radioButton.Location = new System.Drawing.Point(11, 77);
+            perspective_radioButton.Name = "perspective_radioButton";
+            perspective_radioButton.Size = new System.Drawing.Size(138, 26);
+            perspective_radioButton.TabIndex = 4;
+            perspective_radioButton.Text = "perspective";
+            perspective_radioButton.UseVisualStyleBackColor = false;
+            perspective_radioButton.CheckedChanged += perspective_radioButton_CheckedChanged;
+            // 
+            // ortho_radioButton
+            // 
+            ortho_radioButton.AutoSize = true;
+            ortho_radioButton.BackColor = System.Drawing.Color.Transparent;
+            ortho_radioButton.Checked = true;
+            ortho_radioButton.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            ortho_radioButton.ForeColor = System.Drawing.Color.White;
+            ortho_radioButton.Location = new System.Drawing.Point(11, 45);
+            ortho_radioButton.Name = "ortho_radioButton";
+            ortho_radioButton.Size = new System.Drawing.Size(78, 26);
+            ortho_radioButton.TabIndex = 3;
+            ortho_radioButton.TabStop = true;
+            ortho_radioButton.Text = "ortho";
+            ortho_radioButton.UseVisualStyleBackColor = false;
+            ortho_radioButton.CheckedChanged += ortho_radioButton_CheckedChanged;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.BackColor = System.Drawing.Color.Transparent;
+            label15.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label15.ForeColor = System.Drawing.Color.White;
+            label15.Location = new System.Drawing.Point(22, 10);
+            label15.Name = "label15";
+            label15.Size = new System.Drawing.Size(104, 32);
+            label15.TabIndex = 2;
+            label15.Text = "Render";
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.FromArgb(20, 20, 20);
             ClientSize = new System.Drawing.Size(1113, 750);
+            Controls.Add(panel6);
             Controls.Add(panel4);
             Controls.Add(panel5);
             Controls.Add(panel3);
@@ -543,6 +603,8 @@ namespace OpenGL_Lab_5
             ((System.ComponentModel.ISupportInitialize)partialDiskStartAngle_numeric).EndInit();
             ((System.ComponentModel.ISupportInitialize)partialDiskOuterRadius_numeric).EndInit();
             ((System.ComponentModel.ISupportInitialize)partialDiskInnerRadius_numeric).EndInit();
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -579,6 +641,10 @@ namespace OpenGL_Lab_5
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.NumericUpDown partialDiskSweepAngle_numeric;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.RadioButton perspective_radioButton;
+        private System.Windows.Forms.RadioButton ortho_radioButton;
+        private System.Windows.Forms.Label label15;
     }
 }
 
